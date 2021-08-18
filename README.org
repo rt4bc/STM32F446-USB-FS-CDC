@@ -1,0 +1,16 @@
+* Test STM32 Arduino USB FS Speed
+
+[[file:./config.png]]
+
+Test Result:
+#+begin_verse
+❯ python speed_test.py
+USB Full Speed CDC Read Speed: 5.596598 Mbits/s
+❯ python speed_test.py
+USB Full Speed CDC Read Speed: 5.611476 Mbits/s
+❯ python speed_test.py
+USB Full Speed CDC Read Speed: 5.131750 Mbits/s
+❯ python speed_test.py
+USB Full Speed CDC Read Speed: 5.513907 Mbits/s
+
+#+end_verse
